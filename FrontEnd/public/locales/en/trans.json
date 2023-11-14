@@ -1,0 +1,231 @@
+{
+    "navbar":{
+        "curriculum" : "Curriculum",
+        "course" : "Course",
+        "personnel" : "Personnel",
+        "student" : "Student",
+        "document" : "Documents",
+        "contact" : "Contact",
+        "login" : "Login"
+    },
+    "document":{
+        "title":"Document Information",
+        "search":"Search for document",
+        "type":"document type",
+        "subtitle":{
+            "all":"All documents"
+        },
+        "card":{
+            "by":"By",
+            "date":"Date",
+            "more":"More"
+        }
+    },
+    "personnel":{
+        "title":"Personnel Information",
+        "allpersonnel":"All Personnel",
+        "search":"Search Personnel"
+    },
+    "professorprofile":{
+        "information":{
+            "title":"Information",
+            "nameth":"Name (th)",
+            "nameen":"Name (en)",
+            "faculty":"Faculty",
+            "department":"Department"
+        },
+        "fileuac":{
+            "title":"Upload Document",
+            "search":"Search",
+            "order":"Order",
+            "type":"Type",
+            "name":"Name",
+            "more":"More",
+            "detail":"detail"
+        }
+    },
+    "professorhome":{
+        "welcome":"Welcome",
+        "note":"Weekly note",
+        "suggestion":"Feedback",
+        "suggestion2":"from students",
+        "bar":{
+            "Deadline1":"Due Date",
+            "Deadline2":"Deadline"
+        },
+        "create":{
+            "title":"Create Doc.",
+            "subtitle":"SAR / PLO / CLO / TQF /",
+            "subtitle2":"Course Syllabus and other documents.",
+            "other":"Other"
+        },
+        "upload":{
+            "title":"Upload file Doc.",
+            "subtitle":"SAR / PLO / CLO / TQF /",
+            "subtitle2":"Course Syllabus and other documents.",
+            "other":"Other"
+        },
+        "tqf":{
+            "1":"TQF1",
+            "2":"TQF2",
+            "3":"TQF3",
+            "4":"TQF4",
+            "5":"TQF5",
+            "6":"TQF6",
+            "7":"TQF7"
+        }
+    },
+    "home":{
+        "title1":"Course Quality Assurance",
+        "title2":"Department of Computer Engineering",
+        "curriculum":"Curriculum",
+        "curriculum2":"Curriculum",
+        "professor" : "Professor",
+        "professor2" : "People",
+        "student" : "Student",
+        "student2" : "People"
+    },
+    "login":{
+        "title":"Login",
+        "username":"Username",
+        "password":"Password",
+        "forgot":"Forgot password",
+        "btn":"Login"
+    },
+    "changepass":{
+        "title":"Change password",
+        "password":"New password",
+        "password2":"Password again",
+        "btn":"Confirm password change"
+    },
+    "dropdown":{
+        "home":"Home",
+        "edit":"Personal information",
+        "doc":"Manage documents",
+        "feedback":"Feedback from students",
+        "changepass":"Change password",
+        "logout" : "Logout"
+    },
+    "curriculum":{
+        "title":"Curriculum Information"
+    },
+    "course":{
+        "title":"Course Information"
+    },
+    "student":{
+        "title":"Student Information"
+    },
+    "contact":{
+        "title":"Contact"
+    },
+    "subjectnew":{
+        "title":"New Subject"
+    },
+    "SelectAndSearch":{
+        "search":""
+    },
+    "btn":{
+        "save":"Save date",
+        "save2":"Save",
+        "more":"More"
+    },
+    "tqf3":{ 
+        "head":{
+            "name":"Document name"
+        },
+        "chapter1":{
+            "bartitle":"Chapter 1",
+            "title": "Chapter 1 General",
+            "t1": {
+                "title": "Code and course title",
+                "st1": "Course Code",
+                "st2": "Thai course name",
+                "st3": "English course name",
+                "st4": "Number of credits"
+            },
+            "t2": "Credits",
+            "t3": "Program and course type",
+            "t4": "Responsible faculty and teachers",
+            "t5": "Semester / Academic Year",
+            "t6": "Courses to be studied before (Pre-requisites)",
+            "t7": "Courses to be studied at the same time (Co-requisites)",
+            "t8": "Place of study",
+            "t9": "Date of the last course description was created or updated",
+            "t10": "Study day and time",
+            "type": "type :",
+            "status": "Status :"
+        },
+        "chapter2":{
+            "bartitle":"Chapter 2",
+            "title": "Chapter 2 Aims and Objectives",
+            "t1": "1. Course Aims",
+            "t2": "2. Course Improvement Objectives"
+        },
+        "chapter3":{
+            "bartitle":"Chapter 3",
+            "title": "Chapter 3 Operation",
+            "t1": "1. Course Description",
+            "t2": {
+                "title": "2. Number of hours per semester",
+                "st1": "Lecture :",
+                "st2": "Extra Teaching :",
+                "st3": "Practice/FieldExperience/Internship :",
+                "st4": "Self-Study :",
+                "st5": "Hours of lecture",
+                "st6": "Hours of extra Teaching",
+                "st7": "Hours of fieldExperience",
+                "st8": "Hours of self-study"
+            },
+            "t3": "3. Number of hours per week of teacher-provided individual counselling and academic advice",
+            "t4": "Time when teachers are convenient to give advice to individual students"
+        },
+        "chapter4":{
+            "bartitle":"Chapter 4",
+            "title": "Chapter 4 Learning Outcome Developments",
+            "t1": "Course learning outcome",
+            "t2": "Detail",
+            "t3": "Criterion(%)",
+            "t4": "Teaching Methods",
+            "t5": "Evaluation Methods"
+
+        },
+        "chapter5":{
+            "bartitle":"Chapter 5",
+            "title": "Chapter 5 Lesson and Evaluation Plan",
+            "t1": {
+                "title": "1. Lesson Plan",
+                "st1": "Week",
+                "st2": "Topics/Details",
+                "st3": "Hours",
+                "st4": "Learning and teaching activities",
+                "st5": "Lecturer",
+                "st6": "Topics/Details and Hours"
+            },
+            "t2": {
+                "title": "2. Learning Outcome Evaluation Plan",
+                "st1": "No.",
+                "st2": "Evaluation Methods",
+                "st3": "Learning Outcomes",
+                "st4": "Week",
+                "st5": "Weight",
+                "st6": "Evaluation Methods and Weight"
+            }
+        },
+        "chapter6":{
+            "bartitle":"Chapter 6",
+            "title": "Chapter 6 Teaching/Learning Resources",
+            "t1": "1. Textbook",
+            "t2": "2. Documents and important information",
+            "t3": "3. Suggested readings and other resources"
+        },
+        "chapter7":{
+            "bartitle":"Chapter 7",
+            "title": "Chapter 7 Course Evaluation and Improvement",
+            "t1": "1. Course evaluation strategy by students",
+            "t2": "2. Teaching evaluation strategies",
+            "t3": "3. Teaching improvement methods",
+            "t4": "4. Verification of student learning outcomes",
+            "t5": "5. Course review and improvement plans"
+        }
+    }
+}

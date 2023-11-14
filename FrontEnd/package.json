@@ -1,0 +1,56 @@
+{
+  "name": "project1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@react-pdf/renderer": "^1.6.14",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "autosize": "^4.0.2",
+    "axios": "^0.21.1",
+    "i18next": "^19.8.2",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "i18next-xhr-backend": "^3.2.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "pdfmake": "^0.1.70",
+    "ra-data-simple-rest": "^3.13.4",
+    "react": "^16.13.1",
+    "react-admin": "^3.14.4",
+    "react-calendar": "^3.3.0",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.3",
+    "react-modal": "^3.11.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-select": "^3.1.0",
+    "react-textarea-autosize": "^8.3.2",
+    "react-toastify": "^6.0.9"
+  },
+  "scripts": {
+    "start": "PORT=61361 react-scripts start",
+    "dev": "set PORT=61361 && react-scripts start",
+    "win": "PORT=45465 react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

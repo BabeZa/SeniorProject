@@ -1,0 +1,86 @@
+/* --------------------------- card ---------------------- */
+
+.card-container{
+    max-width: var(--ww-8g);
+    justify-content: center;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.card-doc-null{
+    width: 220px;
+    height: 10px;
+    margin: 0px 10px;
+    /* background-color: turquoise; */
+}
+
+.card-add{
+    width: 210px;
+    height: 255px;
+    background-color: rgb(218, 218, 218);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+    margin: 32px 10px;
+    text-align: center;
+}
+.card-add i{
+    font-size: 90px;
+    color: #fff;
+    transform: translateY(80px);
+}
+
+
+/* ------------------------------ bar-scroll -------------------------- */
+.bar-scroll{
+    background-color: #fff;
+    height: 44px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #384653;
+    font-size: 16px;
+
+}
+
+.bar-scroll:hover{
+    border-width: 3.5px;
+    border-style: solid;
+    border-color: #AFCBE5;
+    cursor: pointer;
+    transition: all 0.1s ease;
+    border-left: #fff;
+    
+}
+
+#first-text .bar-scroll:hover{
+    display: none
+}
+
+#first-text .bar-scroll:hover:before{
+    display: none
+  }
+
+.bar-scroll:active{
+    background-color: #AFCBE5;
+    color: #fff;
+    transition: all 0.1s ease;
+
+}
+
+.bar-scroll.hasactived{
+    background-color: #AFCBE5;
+    color: #fff;
+    transition: all 0.1s ease;
+}
+
+/* ------------------------------ end bar-scroll-------------------------- */
+
+

@@ -1,0 +1,34 @@
+.Logo{
+    height: 70px;
+    width: auto; 
+}
+
+.footer-container {
+  background-color: #384653;
+  height: 340px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  "logo . .";
+}
+
+.footer-logo {
+  grid-area: "logo";
+  justify-self: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-logo img {
+
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-logo span { 
+  color: #fff;
+  font-size: 18px;
+
+}

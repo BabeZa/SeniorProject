@@ -1,0 +1,619 @@
+:root {
+  --dark-blue: #384653;
+  --blue: #465f87;
+  --light-blue: #afcbe5;
+  --white: #ffffff;
+  --green: #b5c891;
+  --yellow: #f4ce87;
+  --orange: #eea95c;
+  --pink: #fb9483;
+  --gray: #b9b9b9;
+  --Dark-gray: #858585;
+  --focus-blue: #2684ff;
+
+  --width-web: 940px;
+  --ww-1: 100px;
+  --ww-2: 220px;
+  --ww-3: 340px;
+  --ww-4: 460px;
+  --ww-5: 580px;
+  --ww-6: 700px;
+  --ww-7: 820px;
+  --ww-8: 940px;
+  --ww-8g: 960px;
+
+  --text-color: #384653;
+  --gap: 20px;
+}
+.container-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: #F5F5F5; */
+}
+
+.listall-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listall-content h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #384653;
+  margin-top: 30px;
+}
+
+.listall-content-line {
+  width: 380px;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+
+.display-none {
+  display: none;
+}
+/* ---------------------------------end------------------------------------- */
+
+/* -----------------------------------MySelect----------------------------------- */
+.MySelect {
+  font-family: Pridi;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #384653 !important;
+}
+
+.MySelect2 {
+  font-family: Pridi;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #384653 !important;
+}
+
+.css-1pahdxg-control {
+  border-radius: 10px !important;
+}
+
+.css-yk16xz-control {
+  border-radius: 10px !important;
+}
+
+.css-1uccc91-singleValue {
+  color: #384653 !important;
+}
+
+.css-tlfecz-indicatorContainer {
+  color: #384653 !important;
+}
+
+.css-g1d714-ValueContainer {
+  padding: 0px 8px !important;
+}
+/* --------------------------------end MySelect-------------------------------------- */
+
+/* -----------------------------------MyTextarea----------------------------------- */
+.MyTextarea {
+  background: #ffffff;
+  border: 2px solid #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #384653;
+  padding: 5px 5px 5px 10px;
+  height: auto;
+  overflow: hidden !important;
+  font-size: 16px;
+  /* ปิด resize textarea */
+  resize: none;
+}
+
+.MyTextarea:read-only {
+  border: 2px solid transparent;
+  pointer-events: none;
+  background: transparent;
+  padding: 0px 0px 10px 0px;
+  color: var(--text-color);
+  border-radius: 0px;
+}
+
+.MyTextarea:focus {
+  border-radius: 10px;
+  border: 2px solid var(--focus-blue);
+  box-shadow: 0 0 0 0.2rem rgba(81, 203, 238, 0.25);
+  outline-width: 0;
+}
+
+.MyTextarea::placeholder {
+  opacity: 0.5;
+}
+
+.textarea-bordered:read-only {
+  border: 2px solid var(--dark-blue);
+  border-radius: 10px;
+  pointer-events: none;
+  background: transparent;
+  padding: 5px 5px 5px 10px;
+  color: var(--text-color);
+}
+/* ----------------------------------end MyTextarea------------------------------------ */
+
+/* -------------------------------------MyInput --------------------------------- */
+.MyInput {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  background: #ffffff;
+  border: 2px solid #dcdcdc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: var(--dark-blue);
+  padding: 5px 5px 5px 10px;
+}
+
+.MyInput::placeholder {
+  opacity: 0.5;
+}
+
+.MyInput:focus {
+  border-radius: 10px;
+  border: 2px solid var(--focus-blue);
+  box-shadow: 0 0 0 0.2rem rgba(81, 203, 238, 0.25);
+  outline-width: 0;
+  color: var(--dark-blue);
+}
+
+.MyInput:read-only {
+  border: 2px solid transparent;
+  pointer-events: none;
+  padding: 0px 0px 10px 0px;
+  color: var(--text-color);
+  border-radius: 0px;
+}
+
+.input-bordered:read-only {
+  box-sizing: border-box;
+  border: 2px solid var(--dark-blue);
+  border-radius: 10px;
+  pointer-events: none;
+  padding: 5px 5px 5px 10px;
+  color: var(--text-color);
+}
+
+/* -----------------------------------end MyInput----------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+
+.sticky-container {
+  /* background-color: antiquewhite; */
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+  /* z-index: 1; */
+}
+
+.absolute-container {
+  position: relative;
+}
+.save-bar-container {
+  margin-top: 25px;
+  position: absolute;
+  /* background-color: #B5C891; */
+  right: 0px;
+  background: #ffffff;
+  border: 3px solid #afcbe5;
+  box-sizing: border-box;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-right: none;
+}
+
+.save-bar {
+  width: 113px;
+}
+
+.save-bar hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  background: var(--light-blue);
+  border: 1.5px solid var(--light-blue);
+}
+
+.save-bar-item {
+  /* background-color: bisque; */
+  padding: 12px 10px;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+.save-bar-item label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--dark-blue);
+  margin-bottom: 0px;
+  margin-left: 9px;
+  cursor: pointer;
+}
+
+.save-bar-item:hover {
+  background-color: var(--light-blue);
+  color: var(--white);
+}
+
+.save-bar-item:hover label {
+  color: var(--white);
+}
+
+.save-bar-item.disabled {
+  cursor: context-menu;
+  color: var(--gray);
+  pointer-events: none;
+}
+
+.save-bar-item.disabled label {
+  color: var(--gray);
+}
+
+/* -----------------------------------end----------------------------------- */
+
+/* ---------------------------------------------------------------------- */
+.document-content {
+  width: 100%;
+  max-width: var(--ww-8);
+  /* background-color: tomato; */
+}
+
+.document-chapter-container {
+  background-color: #ffffff;
+  padding: 30px 50px 50px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+}
+
+.document-chapter-container h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--text-color);
+}
+
+.document-chapter-container h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--text-color);
+  margin-top: 15px;
+}
+
+.document-chapter-container td {
+  vertical-align: top;
+}
+
+.document-chapter-container th {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.document-chapter-container p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.mar-left-w1 {
+  margin-left: 70px;
+}
+
+.document-chapter-content {
+  background-color: #eea95c;
+}
+/* ---------------------------------------------------------------------- */
+
+/* -------------------------- bar , search_box------------------------------ */
+.bar-container {
+  height: 60px;
+  background-color: #ebebeb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bar-items {
+  width: var(--ww-8);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search_box {
+  width: 100%;
+  position: relative;
+  height: 40px;
+}
+
+.search_box input {
+  width: 100%;
+  padding: 4px 15px;
+  padding-left: 45px;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1.5px solid #b9b9b9;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--dark-blue);
+  outline: none;
+}
+.search_box input::placeholder {
+  color: #b9b9b9;
+}
+
+.search_box input:focus {
+  border: 1.5px solid var(--dark-blue);
+  color: var(--dark-blue);
+}
+
+.fa-search {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+  color: #b9b9b9;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fa-search:hover {
+  color: var(--dark-blue);
+}
+
+/* -------------------------- End bar ------------------------------ */
+/* -------------------------- ALL container------------------------------ */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #DCDCDC; */
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #DCDCDC; */
+}
+
+.row-gap {
+  width: var(--gap);
+  /* background-color: #EEA95C; */
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.ww-1 {
+  width: var(--ww-1) !important;
+}
+.ww-2 {
+  width: var(--ww-2) !important;
+}
+.ww-3 {
+  width: var(--ww-3) !important;
+}
+.ww-4 {
+  width: var(--ww-4) !important;
+}
+.ww-5 {
+  width: var(--ww-5) !important;
+}
+.ww-6 {
+  width: var(--ww-6) !important;
+}
+.ww-7 {
+  width: var(--ww-7) !important;
+}
+.ww-8 {
+  width: var(--ww-8) !important;
+}
+.ww-100 {
+  width: 100% !important;
+}
+
+.text-pink {
+  color: var(--pink) !important;
+}
+/* -------------------------- End ALL container------------------------------ */
+/* -------------------------- range-slider------------------------------ */
+.range-slider__tooltip__label {
+  border-radius: 50% !important;
+  top: 0.6rem;
+  width: 30px;
+  height: 25px !important;
+  opacity: 1 !important;
+  background-color: var(--dark-blue) !important;
+}
+
+.range-slider__tooltip__arrow {
+  width: 1.7rem !important;
+  opacity: 1 !important;
+  z-index: -1;
+}
+.range-slider__tooltip__arrow::before {
+  border-width: 1.2rem 0.88rem 0 !important;
+  border-top-color: var(--dark-blue) !important;
+}
+/* -------------------------- End range-slider------------------------------ */
+/* -------------------------- card-hover1 ------------------------------ */
+.card-hover1 {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.card-hover1:hover {
+  transition: all 0.3s ease-out;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.35));
+}
+
+/* .none-a:link{
+    text-decoration: none;
+} */
+.none-a:visited {
+  text-decoration: none;
+}
+.none-a:hover {
+  text-decoration: none;
+}
+/* .none-a:active{
+    text-decoration: none;
+} */
+
+/* -------------------------- End card-hover1------------------------------ */
+/* -------------------------- MyButton------------------------------ */
+.MyButton {
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  height: 40px;
+  background: #465f87;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.MyButton:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-out;
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.MyButton:active {
+  box-shadow: none;
+  transition: all 0.1s ease-out;
+  transform: translateY(-0px);
+  outline: none;
+}
+.MyButton:focus {
+  outline:0;
+}
+
+.MyButton2 {
+  color: var(--dark-blue);
+  font-size: 24px;
+  border: none;
+  /* height: 40px; */
+  border-radius: 12px;
+  /* text-align: center; */
+  text-decoration: none;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.MyButton2:hover {
+  color: #ffffff;
+  background: var(--dark-blue);
+  box-shadow: none;
+}
+.MyButton2:active {
+  outline: none;
+}
+.MyButton2:focus {
+  outline:0;
+}
+
+.btn-next-step {
+  padding: 10px 25px;
+}
+.btn-next-step i {
+  margin-left: 20px;
+}
+
+.btn-prev-step {
+  padding: 10px 25px;
+}
+.btn-prev-step i {
+  margin-right: 20px;
+}
+
+.MyButton3 {
+  color: var(--blue);
+  font-size: 18px;
+  border: none;
+  /* height: 40px; */
+  border-radius: 12px;
+  /* text-align: center; */
+  text-decoration: none;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 298px;
+  padding: 8px;
+}
+
+.MyButton3:hover {
+  color: #ffffff;
+  background: var(--blue);
+  box-shadow: none;
+}
+.MyButton3:focus {
+  outline:0;
+}
+.MyButton3.active {
+  outline: none;
+  color: #ffffff;
+  background: var(--blue);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+/* -------------------------- End MyButton------------------------------ */
+
+/* -------------------------- not-found------------------------------ */
+.not-found {
+  /* background-color: #AFCBE5; */
+  height: 100%;
+  transform: translateY(50%);
+}
+.not-found h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 144px;
+  text-align: center;
+  color: var(--dark-blue);
+}
+.not-found h4 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: center;
+  color: var(--dark-blue);
+  transform: translateY(-40px);
+}
+
+.not-found-footer {
+  display: flex;
+  justify-content: center;
+}
+.not-found-btn {
+  width: 280px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+}
+.not-found-btn i {
+  position: absolute;
+  font-size: 45px;
+  top: 8px;
+  /* transform: translateY(-5px); */
+  transform: translateX(-90px);
+}
+
+/* -------------------------- End not-found------------------------------ */

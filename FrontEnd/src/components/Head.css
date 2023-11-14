@@ -1,0 +1,42 @@
+.Head{
+    background-color: #AFCBE5;
+    height: 200px;
+    
+}
+
+.Head-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Head-content.none{
+    display: none;
+}
+
+
+.Head-footer{
+    width: 100%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.Head label{
+    font-size: 50px;
+    text-align: center;
+    color: #384653;
+    text-shadow: 2px 2px 3px #5d6e7c;
+}
+
+.Head-title2 label{
+    line-height: 20px;
+}
+
+.Head-title3 label{
+    font-size: 30px;
+    line-height: 10px;
+}

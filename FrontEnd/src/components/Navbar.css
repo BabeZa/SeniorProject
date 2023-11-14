@@ -1,0 +1,185 @@
+.navbar {
+  background: #384653;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  margin-bottom: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  /* background-color: royalblue; */
+}
+
+.navbar-left{
+  display: flex;
+}
+
+.navbar-logo {
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+/* ---------------- lang -------------- */
+.lang{
+  height: 30px;
+  width: auto; 
+  margin-left: 20px;
+  
+}
+  
+.navbar-lang{
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+  
+.navbar-lang:hover{
+  cursor: pointer;
+}
+/* ---------------- end lang -------------- */
+
+.userprofile{
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 80vw;
+  height: 100%;
+  justify-content: end; 
+  margin-right: 2rem;
+  /* background-color: springgreen;  */
+}
+
+.nav-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  /* width: 120px; */
+  padding: 0.5rem 0.8rem;
+  height: 100%;
+  /* background-color: rosybrown; */
+  margin-top: 10px;
+}
+.nav-links.notshow{
+  display: none;
+}
+
+.nav-links p{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.nav-links:hover {
+  /* color: rgb(220, 220, 220);  */
+  /*TODO ยังไม่ทำ */
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+
+.fa-bars {
+  color: #fff;
+}
+
+
+.nav-links-mobile {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+  
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.6rem;
+    cursor: pointer;
+    /* background-color: skyblue; */
+  }
+
+  
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    position: absolute;
+    top: 75px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #384653;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    height: 100vh;
+  }
+
+  
+
+  .nav-links {
+    /* background-color: seagreen; */
+    padding-bottom: 0px;
+  }
+  .nav-links p{
+    /* background-color: tomato; */
+    margin-block-start: 0px;
+    margin-block-end: 4px;
+  }
+  
+
+}
